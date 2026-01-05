@@ -4,22 +4,20 @@ title = 'CyanSun'
 theme = 'PaperMod'
 
 [params]
-    defaultTheme = "auto"   # 跟随系统切换黑白
-    ShowReadingTime = true  # 显示阅读时间
-    ShowShareButtons = true # 显示分享按钮
+    defaultTheme = "auto"
+    ShowReadingTime = true
+    ShowShareButtons = true
 
     # 🏠 首页名片设置
     [params.profileMode]
         enabled = true
         title = "Hi, I'm CyanSun 👋"
-        # 👇 你的邮箱已经填进去了
-        subtitle = "📮 the.cyansun@gmail.com | 虚拟产品开发者 | AI 探索者 | 出海App"
+        subtitle = "📮 the.cyansun@gmail.com \n\n 虚拟产品开发者 | AI 探索者 | 出海App"
         imageUrl = "https://github.com/qingyang3018.png"
         imageTitle = "Avatar"
         imageWidth = 150
         imageHeight = 150
 
-        # 👇 关键修复：添加进入博客的按钮
         [[params.profileMode.buttons]]
             name = "📄 阅读文章 (Enter Blog)"
             url = "posts"
