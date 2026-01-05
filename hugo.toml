@@ -1,27 +1,24 @@
-baseURL = 'https://www.cyansun.art/'
-languageCode = 'zh-cn'
-title = 'CyanSun'
-theme = 'PaperMod'
-
-[params]
-    defaultTheme = "auto" # 自动跟随系统黑白模式
-    ShowReadingTime = true # 显示阅读时间
-    ShowShareButtons = true # 显示分享按钮
-
-    # 🏠 核心：开启首页个人名片模式
+# 🏠 核心：开启首页个人名片模式
     [params.profileMode]
         enabled = true
-        title = "Hi, I'm CyanSun 👋" # 大标题
-        subtitle = "虚拟产品开发者 | 心理学爱好者 | AI 探索者｜ 出海App" # 副标题
-        imageUrl = "https://github.com/qingyang3018.png" # 自动抓取你GitHub头像
+        title = "Hi, I'm CyanSun 👋"
+        # 👇 修改点1：把邮箱直接写在副标题里，这样别人就能看见了
+        subtitle = "📮 邮箱: the.cyansun@gmail.com | 虚拟产品开发者 | AI 探索者"
+        imageUrl = "https://github.com/qingyang3018.png"
         imageTitle = "Avatar"
         imageWidth = 150
         imageHeight = 150
 
-    # 🔗 社交链接
+        # 👇 修改点2：添加按钮，让访客能点进去看文章
+        [[params.profileMode.buttons]]
+            name = "📄 阅读文章 (Blog)"
+            url = "posts"
+        
+        [[params.profileMode.buttons]]
+            name = "🗂️ 归档 (Archives)"
+            url = "archives"
+
+    # 🔗 社交链接 (图标继续保留)
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/qingyang3018"
-    [[params.socialIcons]]
-        name = "email"
-        url = "the.cyansun@gmail.com"
