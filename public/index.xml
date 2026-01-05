@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>CyanSun</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on CyanSun</description>
     <generator>Hugo -- 0.147.4</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -41,7 +41,8 @@ Google 活动要求：订阅的主号可以参加活动即可，被邀请者账
       <link>http://localhost:1313/posts/%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0-%E7%AC%94%E8%AE%B0-ios-%E5%87%BA%E6%B5%B7app-sop/</link>
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0-%E7%AC%94%E8%AE%B0-ios-%E5%87%BA%E6%B5%B7app-sop/</guid>
-      <description>&lt;p&gt;这里开始写你的正文&amp;hellip;测试笔记-笔记 iOS 出海app SOP&lt;/p&gt;</description>
+      <description>&lt;p&gt;这是 v4.0 全自动发布测试&lt;/p&gt;
+&lt;p&gt;这里开始写你的正文&amp;hellip;测试笔记-笔记 iOS 出海app SOP&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

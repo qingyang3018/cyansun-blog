@@ -11,9 +11,8 @@ draft: false
 关于 Gemini pro 58折活动的年订阅活动
 Google 活动要求：订阅的主号可以参加活动即可，被邀请者账户无要求；（最多 6 人享受一年的pro服务，人均10元/月）
 官方活动链接：http://one.google.com/ai-nye 正常访问代表该站户可享受该活动优惠；
-**Open: 截屏2025-12-26 上午2.12.27.png**
-![图片丢失](/images/99_附件库/未命名/e394bd07f6a044bd94e4cb1db99788b1_MD5.png)
-
+![d9b368b4176f985671386e6809f24872_MD5.png](/images/d9b368b4176f985671386e6809f24872_MD5.png)
+![d9b368b4176f985671386e6809f24872_MD5.png](/images/d9b368b4176f985671386e6809f24872_MD5.png)
 1、支付方式-圈友分享操作：https://ai.feishu.cn/docx/VqESdjsr6ontkRxR3M8cHogFnrd
 地址问题：选择美国的 ‘Oregon (俄勒冈州)’ 免税区，不然要交税；
 美国地址生成器：https://www.meiguodizhi.com/usa-address/oregon
@@ -28,8 +27,8 @@ Google 活动要求：订阅的主号可以参加活动即可，被邀请者账
 解决方案：
 右上角头像 - 管理 Google 账户 - 付款和订阅 - 管理付款方式 - 支付方式 - 移除 - 移除并保存修改
 返回加入链接，重新点击即可加入家人群组，至此完成；
-**Open: 截屏2025-12-26 上午2.33.26.png**
-![图片丢失](/images/99_附件库/关于 Gemini pro 家庭组订阅官方活动-操作问题 及 解决方式/28c50ed427ec62e9d4270365f71109e2_MD5.png)
+![28c50ed427ec62e9d4270365f71109e2_MD5.png](/images/28c50ed427ec62e9d4270365f71109e2_MD5.png)
+![28c50ed427ec62e9d4270365f71109e2_MD5.png](/images/28c50ed427ec62e9d4270365f71109e2_MD5.png)
 
 🚗 Google One AI Premium (2TB) 拼车套餐说明
 
