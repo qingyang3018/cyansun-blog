@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于 Gemini pro 家庭组订阅官方活动-操作问题 及 解决方式</title>
+      <link>http://localhost:1313/posts/%E5%85%B3%E4%BA%8E-gemini-pro-%E5%AE%B6%E5%BA%AD%E7%BB%84%E8%AE%A2%E9%98%85%E5%AE%98%E6%96%B9%E6%B4%BB%E5%8A%A8-%E6%93%8D%E4%BD%9C%E9%97%AE%E9%A2%98-%E5%8F%8A-%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%85%B3%E4%BA%8E-gemini-pro-%E5%AE%B6%E5%BA%AD%E7%BB%84%E8%AE%A2%E9%98%85%E5%AE%98%E6%96%B9%E6%B4%BB%E5%8A%A8-%E6%93%8D%E4%BD%9C%E9%97%AE%E9%A2%98-%E5%8F%8A-%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</guid>
+      <description>&lt;p&gt;特别说明：
+建议想拼车的圈友，提前和队友说清楚：年付发车，中途下车不退。
+发车前确认是否有无异议，避免发生不愉快。&lt;/p&gt;
+&lt;p&gt;关于 Gemini pro 58折活动的年订阅活动
+Google 活动要求：订阅的主号可以参加活动即可，被邀请者账户无要求；（最多 6 人享受一年的pro服务，人均10元/月）
+官方活动链接：http://one.google.com/ai-nye 正常访问代表该站户可享受该活动优惠；
+&lt;strong&gt;Open: 截屏2025-12-26 上午2.12.27.png&lt;/strong&gt;
+&lt;img alt=&#34;图片丢失&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/99_%E9%99%84%E4%BB%B6%E5%BA%93/%E6%9C%AA%E5%91%BD%E5%90%8D/e394bd07f6a044bd94e4cb1db99788b1_MD5.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;1、支付方式-圈友分享操作：https://ai.feishu.cn/docx/VqESdjsr6ontkRxR3M8cHogFnrd
+地址问题：选择美国的 ‘Oregon (俄勒冈州)’ 免税区，不然要交税；
+美国地址生成器：https://www.meiguodizhi.com/usa-address/oregon&lt;/p&gt;
+&lt;p&gt;2、邀请拼车队员
+通过邮箱邀请，队员提供下可以正常访问 Gemini 的账户；
+路径：右上角头像 - 管理 Google 账户 - 家人群组/family group - 点击邀请 - 输入队员邮箱 - 发送
+账户是可以更换的，如果账户有问题，无法正常使用，队员可以换个账户重新绑定；
+被邀请加入路径：families.google.com 点击链接加入即可&lt;/p&gt;
+&lt;p&gt;无法加入提示：无法加入家人群组 - 您似乎与邀请您的人不在同一个国家/地区。
+解决方案：
+右上角头像 - 管理 Google 账户 - 付款和订阅 - 管理付款方式 - 支付方式 - 移除 - 移除并保存修改
+返回加入链接，重新点击即可加入家人群组，至此完成；
+&lt;strong&gt;Open: 截屏2025-12-26 上午2.33.26.png&lt;/strong&gt;
+![图片丢失](/images/99_附件库/关于 Gemini pro 家庭组订阅官方活动-操作问题 及 解决方式/28c50ed427ec62e9d4270365f71109e2_MD5.png)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>测试 笔记 iOS 出海app SOP</title>
+      <link>http://localhost:1313/posts/%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0-%E7%AC%94%E8%AE%B0-ios-%E5%87%BA%E6%B5%B7app-sop/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0-%E7%AC%94%E8%AE%B0-ios-%E5%87%BA%E6%B5%B7app-sop/</guid>
+      <description>&lt;p&gt;这里开始写你的正文&amp;hellip;测试笔记-笔记 iOS 出海app SOP&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
