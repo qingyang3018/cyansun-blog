@@ -12,7 +12,7 @@ theme = 'PaperMod'
     [params.profileMode]
         enabled = true
         title = "Hi, I'm CyanSun 👋" # 大标题
-        subtitle = "虚拟产品开发者 | 心理学爱好者 | AI 探索者" # 副标题
+        subtitle = "虚拟产品开发者 | 心理学爱好者 | AI 探索者｜ 出海App" # 副标题
         imageUrl = "https://github.com/qingyang3018.png" # 自动抓取你GitHub头像
         imageTitle = "Avatar"
         imageWidth = 150
@@ -24,4 +24,4 @@ theme = 'PaperMod'
         url = "https://github.com/qingyang3018"
     [[params.socialIcons]]
         name = "email"
-        url = "mailto:你的邮箱@example.com"
+        url = "the.cyansun@gmail.com"
