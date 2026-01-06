@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on CyanSun | 青    阳</title>
+    <link>https://www.cyansun.art/tags/</link>
+    <description>Recent content in Tags on CyanSun | 青    阳</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <managingEditor>the.cyansun@gmail.com (Cyan Sun)</managingEditor>
+    <webMaster>the.cyansun@gmail.com (Cyan Sun)</webMaster>
+    <atom:link href="https://www.cyansun.art/tags/atom.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

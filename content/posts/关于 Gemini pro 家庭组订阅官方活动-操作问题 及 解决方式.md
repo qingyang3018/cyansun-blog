@@ -1,7 +1,7 @@
 ---
 title: 关于 Gemini pro 家庭组订阅官方活动-操作问题 及 解决方式
 date: 2026-01-05
-draft: false
+draft: "true"
 ---
 
 特别说明：

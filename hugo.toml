@@ -1,35 +1,263 @@
-baseURL = 'https://www.cyansun.art/'
-languageCode = 'zh-cn'
-title = 'CyanSun'
-theme = 'PaperMod'
+# ========================================
+# Hugo FixIt Theme Configuration
+# Site: https://www.cyansun.art
+# Theme: FixIt v0.4.1
+# ========================================
 
+baseURL = "https://www.cyansun.art"
+languageCode = "zh-CN"
+defaultContentLanguage = "zh-cn"
+title = "CyanSun | 青    阳"
+theme = "FixIt"
+
+# 站点描述
 [params]
-    defaultTheme = "auto"
-    ShowReadingTime = true
-    ShowShareButtons = true
+  description = "专注AI工具、心理测试、虚拟产品、出海App"
+  keywords = ["AI", "心理测试", "虚拟产品", "小红书运营", "自动化", "出海App"]
+  defaultTheme = "auto"  # auto/light/dark
+  
+  # 作者信息
+  [params.author]
+    name = "Cyan Sun"
+    email = "the.cyansun@gmail.com"
+    link = "https://www.cyansun.art"
+    
+    # 首页名片配置
+  [params.home.profile]
+    enable = true
+    avatarURL = "https://github.com/qingyang3018.png" # 👈 你的头像
+    title = "CyanSun"
+    subtitle = "虚拟产品架构师 | 专注 AI 心理测评与出海应用实战" # 👈 GEO 核心身份标签
+    typeit = true # 开启打字机效果，增加交互感
+    social = true # 显示社交链接
+    disclaimer = "专注AI工具、心理测试、虚拟产品、出海App"
 
-    # 🏠 首页名片设置
-    [params.profileMode]
-        enabled = true
-        title = "Hi, I'm CyanSun 👋"
-        subtitle = "📮 the.cyansun@gmail.com \n\n 虚拟产品开发者 | AI 探索者 | 出海App"
-        imageUrl = "https://github.com/qingyang3018.png"
-        imageTitle = "Avatar"
-        imageWidth = 150
-        imageHeight = 150
+  # 网站图标
+  [params.app]
+    title = "CyanSun"
+    noFavicon = false
+    svgFavicon = ""
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
+  
+  # 搜索配置
+  [params.search]
+    enable = true
+    type = "fuse"
+    contentLength = 4000
+    placeholder = "搜索文章..."
+    maxResultLength = 20
+    snippetLength = 100
+    highlightTag = "em"
+    absoluteURL = false
+    
+  # 页头配置
+  [params.header]
+    desktopMode = "sticky"
+    mobileMode = "auto"
+    
+    # 标题配置
+    [params.header.title]
+      logo = ""
+      name = "CyanSun"
+      pre = ""
+      post = ""
+      typeit = false
+  
+  # 页脚配置
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = false
+    copyright = true
+    author = true
+    since = 2024
+    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  
+  # 社交链接
+  [params.social]
+    GitHub = "https://github.com/qingyang3018"
+    Email = "the.cyansun@gmail.com"
+    RSS = true
 
-        [[params.profileMode.buttons]]
-            name = "📄 阅读文章 (Enter Blog)"
-            url = "posts"
+  # 页面配置
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = true
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = false
+    rssFullText = true
+    lastmod = true           # 在文章顶部显示“最后更新时间”，增强 AI 的时效性评分
+    readingProgress = true    # 在页面顶部显示阅读进度条，提升用户参与感
+    
+    # 目录配置
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+      
+    # 代码配置
+    [params.page.code]
+      copy = true
+      maxShownLines = 20
+      theme = "monokai"
+      
+    # 数学公式
+    [params.page.math]
+      enable = true
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      copyTex = true
+      mhchem = true
+    
+    # 评论系统（可选）
+    [params.page.comment]
+      enable = true
+      
+  # 网站验证代码（用于Google Search Console等）
+  [params.verification]
+    google = "TF6uhpfWOapB1V3CiXeJBdxaMiqB_-3dvhTSMGFC__M"
+    bing = ""
+    baidu = ""
+    
+  # 网站分析（可选）
+  [params.analytics]
+    enable = true
+    # --- 新增以下内容 ---
+    [params.analytics.google]
+      id = "G-YY9ZK43E0D" # 👈 粘贴你刚刚复制的测量 ID
+      async = true
+    
+    # --- 建议同步开启不蒜子统计，增强 GEO 信任度 ---
+    [params.analytics.busuanzi]
+      enable = true
+      siteReadIt = true
+      pageReadIt = true
+    
+  # SEO配置
+  [params.seo]
+    image = "/images/cyansun_cover.webp"
+    thumbnailUrl = "/images/cyansun_cover.webp"
 
-        [[params.profileMode.buttons]]
-            name = "🗂️ 归档 (Archives)"
-            url = "archives"
+# ========================================
+# Hugo 构建配置
+# ========================================
 
-    # 🔗 社交图标
-    [[params.socialIcons]]
-        name = "github"
-        url = "https://github.com/qingyang3018"
-    [[params.socialIcons]]
-        name = "email"
-        url = "mailto:the.cyansun@gmail.com"
+[build]
+  writeStats = true
+  
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "atom"
+
+# ========================================
+# 菜单配置
+# ========================================
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "文章"
+    url = "/posts/"
+    title = "所有文章"
+    weight = 1
+    
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "标签"
+    url = "/tags/"
+    title = "标签分类"
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "分类"
+    url = "/categories/"
+    title = "文章分类"
+    weight = 3
+    
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "关于"
+    url = "/about/"
+    title = "关于本站"
+    weight = 4
+
+# ========================================
+# Markdown 配置
+# ========================================
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
+    
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+      
+    [markup.goldmark.renderer]
+      unsafe = true
+      
+  [markup.tableOfContents]
+    endLevel = 6
+    ordered = false
+    startLevel = 2
+
+# ========================================
+# 其他配置
+# ========================================
+
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+# 分页
+paginate = 12
+
+# 时区
+timeZone = "Asia/Shanghai"
+
+# 默认的文章摘要长度
+summaryLength = 70
+
+# ========================================
+# GEO优化：Schema.org配置
+# ========================================
+
+[params.schema]
+  publisher = "CyanSun"
+  logo = "/images/avatar.jpg"
+  image = "/images/cyansun_cover.webp"
