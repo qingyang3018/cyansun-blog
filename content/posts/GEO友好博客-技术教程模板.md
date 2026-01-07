@@ -1,32 +1,32 @@
 ---
-title: "{{技术名称}}完整教程：{{核心功能}}"
+title: "<% tp.system.prompt("技术名称") %>完整教程：<% tp.system.prompt("核心功能") %>"
 draft: false
-date: {{date:YYYY-MM-DD}}
-tags: [教程, {{技术标签}}]
+date: <% tp.date.now("YYYY-MM-DD") %>
+tags: [教程, <% tp.system.prompt("技术标签") %>]
 category: [技术文档]
 ---
 
 # 教程目标（20字内）
-本教程教你使用{{技术}}实现{{功能}}，适合{{目标用户}}。
+本教程教你使用<% tp.system.prompt("技术名称") %>实现<% tp.system.prompt("核心功能") %>。
 
 ---
 
 ## 快速开始（必读，200字内）
 
 **你将学会：**
-- 功能1
-- 功能2
-- 功能3
+- <% tp.system.prompt("功能1") %>
+- <% tp.system.prompt("功能2") %>
+- <% tp.system.prompt("功能3") %>
 
 **前置要求：**
-- 技能：{{如：Python基础、命令行操作}}
-- 工具：{{如：Python 3.9+、VSCode}}
-- 时间：{{预计完成时间}}
+- 技能：<% tp.system.prompt("如：Python基础、命令行操作") %>
+- 工具：<% tp.system.prompt("如：Python 3.9+、VSCode") %>
+- 时间：<% tp.system.prompt("预计完成时间") %>
 
 **核心技术栈：**
-`{{技术1}}` + `{{技术2}}` + `{{技术3}}`
+`<% tp.system.prompt("技术1") %>` + `<% tp.system.prompt("技术2") %>` + `<% tp.system.prompt("技术3") %>`
 
-> 💡 适合人群：{{描述目标读者}}
+> 💡 适合人群：<% tp.system.prompt("描述目标读者") %>
 
 ---
 
@@ -38,7 +38,7 @@ category: [技术文档]
 - 效果1
 - 效果2
 
-<!-- 如有截图/动图，放这里 -->
+<% tp.file.cursor(1) %>
 
 ---
 
@@ -48,29 +48,29 @@ category: [技术文档]
 
 ```bash
 # 方法1：pip安装
-pip install {{package}} --break-system-packages
+pip install <% tp.system.prompt("package名称") %> --break-system-packages
 
 # 方法2：使用虚拟环境
 python -m venv venv
 source venv/bin/activate
-pip install {{package}}
+pip install <% tp.system.prompt("package名称") %>
 ```
 
 ### 验证安装
 
 ```bash
 # 测试命令
-{{test_command}}
+<% tp.system.prompt("测试命令") %>
 
 # 期望输出
-✅ {{expected_output}}
+✅ 安装成功
 ```
 
 ---
 
 ## 核心概念（必读）
 
-### 概念1：{{名称}}
+### 概念1：XXX
 
 **定义：** ...
 
@@ -78,17 +78,13 @@ pip install {{package}}
 
 **示例：** ...
 
-### 概念2：{{名称}}
-
-**定义：** ...
-
 ---
 
 ## 实战步骤
 
-### 步骤1：{{第一步名称}}（难度：⭐）
+### 步骤1：初始化项目（难度：⭐）
 
-**目标：** 完成XXX
+**目标：** 完成项目初始化
 
 **代码：**
 ```python
@@ -115,55 +111,24 @@ python step1.py
 
 ---
 
-### 步骤2：{{第二步名称}}（难度：⭐⭐）
+### 步骤2：核心功能（难度：⭐⭐）
 
-**目标：** 完成YYY
+**目标：** 实现核心功能
 
-**在步骤1基础上修改：**
+**代码：**
 ```python
 # 步骤2代码
 def step2():
     pass
 ```
 
-**新增功能：**
-- 功能1
-- 功能2
-
 ---
 
-### 步骤3：{{第三步名称}}（难度：⭐⭐⭐）
+### 步骤3：优化完善（难度：⭐⭐⭐）
 
-**目标：** 完成ZZZ
+**目标：** 完善功能
 
-<!-- 重复步骤结构 -->
-
----
-
-## 进阶优化
-
-### 优化1：性能提升
-
-**问题：** 当前方案存在XXX瓶颈
-
-**优化方法：**
-```python
-# 优化代码
-```
-
-**效果对比：**
-- 优化前：XXX
-- 优化后：YYY
-
-### 优化2：错误处理
-
-**添加异常捕获：**
-```python
-try:
-    # 核心逻辑
-except Exception as e:
-    # 错误处理
-```
+<!-- 详细步骤 -->
 
 ---
 
@@ -172,7 +137,6 @@ except Exception as e:
 ```python
 """
 完整可运行代码
-包含所有步骤的整合版本
 """
 
 # 完整代码放这里
@@ -180,9 +144,6 @@ except Exception as e:
 
 **使用方法：**
 ```bash
-# 下载
-curl -O {{github_link}}
-
 # 运行
 python complete_version.py
 ```
@@ -204,28 +165,6 @@ python complete_version.py
 
 **Python 3.9：** ...  
 **Python 3.10+：** ...
-
-### Q3：性能不够怎么办？
-
-**建议：**
-1. 优化方向1
-2. 优化方向2
-
----
-
-## 扩展阅读
-
-### 相关教程
-- **教程1**
-- **教程2**
-
-### 官方文档
-- [官方文档链接](https://example.com)
-- [GitHub仓库](https://github.com/example)
-
-### 进阶主题
-- 主题1：更复杂的应用场景
-- 主题2：与其他工具集成
 
 ---
 
@@ -256,8 +195,3 @@ python complete_version.py
 - [ ] 所有代码已测试可运行
 - [ ] 包含完整可运行版本
 - [ ] 错误处理完善
-
-**用户体验：**
-- [ ] 步骤清晰，有难度标识
-- [ ] 有效果预览
-- [ ] 有排错指南
