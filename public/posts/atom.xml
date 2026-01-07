@@ -2,13 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>所有文章 - CyanSun | 青    阳</title>
-    <link>https://www.cyansun.art/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>专注AI工具、心理测试、虚拟产品、出海App</description>
     <generator>Hugo 0.147.4 &amp; FixIt v0.4.1-20260105065156-43ecb1bd</generator>
     <language>zh-CN</language>
     <managingEditor>the.cyansun@gmail.com (Cyan Sun)</managingEditor>
     <webMaster>the.cyansun@gmail.com (Cyan Sun)</webMaster>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://www.cyansun.art/posts/atom.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于 Gemini pro 家庭组订阅官方活动-操作问题 及 解决方式</title>
+      <link>http://localhost:1313/posts/%E5%85%B3%E4%BA%8E-gemini-pro-%E5%AE%B6%E5%BA%AD%E7%BB%84%E8%AE%A2%E9%98%85%E5%AE%98%E6%96%B9%E6%B4%BB%E5%8A%A8-%E6%93%8D%E4%BD%9C%E9%97%AE%E9%A2%98-%E5%8F%8A-%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate><author>the.cyansun@gmail.com (Cyan Sun)</author>
+      <guid>http://localhost:1313/posts/%E5%85%B3%E4%BA%8E-gemini-pro-%E5%AE%B6%E5%BA%AD%E7%BB%84%E8%AE%A2%E9%98%85%E5%AE%98%E6%96%B9%E6%B4%BB%E5%8A%A8-%E6%93%8D%E4%BD%9C%E9%97%AE%E9%A2%98-%E5%8F%8A-%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F/</guid>
+      <description>&lt;p&gt;特别说明：&#xA;建议想拼车的圈友，提前和队友说清楚：年付发车，中途下车不退。&#xA;发车前确认是否有无异议，避免发生不愉快。&lt;/p&gt;&#xA;&lt;p&gt;关于 Gemini pro 58折活动的年订阅活动&#xA;Google 活动要求：订阅的主号可以参加活动即可，被邀请者账户无要求；（最多 6 人享受一年的pro服务，人均10元/月）&#xA;官方活动链接：http://one.google.com/ai-nye 正常访问代表该站户可享受该活动优惠；&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;⚠️ 图片丢失: d9b368b4176f985671386e6809f24872_MD5.png&#xA;⚠️ 图片丢失: d9b368b4176f985671386e6809f24872_MD5.png&#xA;1、支付方式-圈友分享操作：https://ai.feishu.cn/docx/VqESdjsr6ontkRxR3M8cHogFnrd&#xA;地址问题：选择美国的 ‘Oregon (俄勒冈州)’ 免税区，不然要交税；&#xA;美国地址生成器：https://www.meiguodizhi.com/usa-address/oregon&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;2、邀请拼车队员&#xA;通过邮箱邀请，队员提供下可以正常访问 Gemini 的账户；&#xA;路径：右上角头像 - 管理 Google 账户 - 家人群组/family group - 点击邀请 - 输入队员邮箱 - 发送&#xA;账户是可以更换的，如果账户有问题，无法正常使用，队员可以换个账户重新绑定；&#xA;被邀请加入路径：families.google.com 点击链接加入即可&lt;/p&gt;&#xA;&lt;p&gt;无法加入提示：无法加入家人群组 - 您似乎与邀请您的人不在同一个国家/地区。&#xA;解决方案：&#xA;右上角头像 - 管理 Google 账户 - 付款和订阅 - 管理付款方式 - 支付方式 - 移除 - 移除并保存修改&#xA;返回加入链接，重新点击即可加入家人群组，至此完成；&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;⚠️ 图片丢失: 28c50ed427ec62e9d4270365f71109e2_MD5.png&#xA;⚠️ 图片丢失: 28c50ed427ec62e9d4270365f71109e2_MD5.png&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
