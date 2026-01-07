@@ -1,4 +1,10 @@
 #!/bin/bash
+CURRENT_HUGO=$(hugo version | grep -oE "v[0-9.]+")
+if [[ "$CURRENT_HUGO" < "v0.147.7" ]]; then
+    echo "❌ Hugo 版本过低 ($CURRENT_HUGO)，请检查路径优先级！"
+    exit 1
+fi
+
 cd ~/Workspace/Dev/my_blog
 
 case $1 in
