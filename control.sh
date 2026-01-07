@@ -4,7 +4,7 @@ cd ~/Workspace/Dev/my_blog
 case $1 in
    "publish")
         echo "🚀 正在提取 Obsidian 内容并发布到云端..."
-        python3 ~/Workspace/Product/bridge.py # [cite: 4]
+        ~/Workspace/Dev/my_blog/venv/bin/python3 ~/Workspace/Product/bridge.py # [cite: 4]
         git add .
         current_time=$(date "+%Y-%m-%d %H:%M:%S") # 
         git commit -m "GEO Update: $current_time"

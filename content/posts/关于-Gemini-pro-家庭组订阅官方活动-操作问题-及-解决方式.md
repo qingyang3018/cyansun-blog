@@ -1,7 +1,5 @@
 ---
 title: 关于 Gemini pro 家庭组订阅官方活动-操作问题 及 解决方式
-description: "本文提供了Gemini Pro家庭组订阅58折活动的参与方式及问题解决方案，包括支付方式、拼车邀请、无法加入等常见问题。重点提示使用美国俄勒冈州地址免税，以及Google家庭组的隐私安全机制，适用于希望低成本体验Gemini Pro的用户。"
-keywords: [Gemini Pro, 家庭组订阅, Google One, 拼车, 优惠活动, 问题解决, 俄勒冈州, Google AI]
 date: 2026-01-05
 draft: "true"
 ---
