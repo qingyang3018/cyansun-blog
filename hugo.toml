@@ -23,6 +23,7 @@ theme = "FixIt"
     link = "https://www.cyansun.art"
     
     # 首页名片配置
+  [params.home]
   [params.home.profile]
     enable = true
     avatarURL = "https://github.com/qingyang3018.png" # 👈 你的头像
@@ -31,6 +32,11 @@ theme = "FixIt"
     typeit = true # 开启打字机效果，增加交互感
     social = true # 显示社交链接
     disclaimer = "专注AI工具、心理测试、虚拟产品、出海App"
+    [params.home.posts]
+    enable = true
+    paginate = 10
+    # FixIt 专用：是否在首页卡片显示文章摘要（必须设为 true）
+    showSummary = true
 
   # 网站图标
   [params.app]
@@ -251,7 +257,7 @@ paginate = 12
 timeZone = "Asia/Shanghai"
 
 # 默认的文章摘要长度
-summaryLength = 70
+summaryLength = 100
 
 # ========================================
 # GEO优化：Schema.org配置
